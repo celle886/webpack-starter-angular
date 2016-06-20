@@ -1,5 +1,5 @@
 {
-  "name": "webpack-starter-angular",
+  "name": "i5-guiBuilder",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -7,20 +7,14 @@
     "build": "webpack",
     "lint": "eslint src/ || true",
     "lint:travis": "eslint src/",
-    "start": "webpack-dev-server --inline --port 3000 --content-base dist/",
+    "start": "webpack-dev-server --inline --port 7000 --content-base dist/",
     "test": "karma start",
     "test:debug": "karma start karma.conf.js --log-level=debug --single-run=False",
     "test:watch": "karma start karma.conf.js --auto-watch=true --single-run=False"
   },
-  "keywords": [
-    "bundle",
-    "bundling",
-    "webpack",
-    "npm",
-    "angular"
-  ],
-  "author": "Timo Stollenwerk",
-  "license": "MIT",
+  "keywords": [],
+  "author": "Marcel Quasnica",
+  "license": "",
   "babel": {
     "presets": [
       "es2015"
@@ -40,11 +34,10 @@
     "html-webpack-plugin": "^1.7.0",
     "jade": "^1.11.0",
     "jade-loader": "^0.7.1",
+    "jasmine-core": "^2.4.1",
     "karma": "^0.13.9",
-    "karma-chai": "^0.1.0",
     "karma-chrome-launcher": "^0.2.0",
-    "karma-mocha": "^0.2.0",
-    "karma-mocha-reporter": "^1.0.2",
+    "karma-jasmine": "^1.0.2",
     "karma-sourcemap-loader": "^0.3.4",
     "karma-webpack": "^1.5.1",
     "mocha": "^2.3.0",
@@ -59,14 +52,6 @@
   "dependencies": {
     "angular": "~1.5.0",
     "angular-sanitize": "~1.5.0",
-    "angular-schema-form": "~0.8.12",
-    "angular-schema-form-bootstrap": "~0.2.0",
-    "angular-ui-bootstrap": "~1.1.2",
-    "angular-ui-router": "~0.2.15",
-    "bootstrap": "~3.3.5",
-    "jquery": "~2.2.1",
-    "lodash": "~4.6.1",
-    "objectpath": "~1.2.1",
-    "tv4": "~1.2.7"
+    "angular-ui-router": "~0.2.15"
   }
 }
